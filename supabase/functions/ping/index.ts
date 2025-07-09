@@ -4,7 +4,7 @@ console.log("Hello from Functions!")
 
 // @ts-ignore
 Deno.serve(async (req) => {
-  return new Response('pong', {
+  return new Response('pong2', {
     status: 200,
     headers: { 'Content-Type': 'text/plain' },
   });
